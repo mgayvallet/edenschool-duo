@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card{
+  height: 45%;
+  width: 15%;
+  background-color: Black ;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.firstP{
+  margin: 2rem;
+  display: flex;
+  align-self: start;
+}
+
+.secondP{
+  margin: 2rem;
+  align-self: flex-end;
+}
+
+.all{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  margin-top: 35px;
+  margin-left: 10%;
+}
+
+.red{
+  width: 45px;
+  height: 64px;
+  border: solid 4px #EB5757;
+  border-radius: 10px;
+  z-index: 1;
+  background-color: black;
+}
+
+.blue{
+  width: 45px;
+  height: 64px;
+  border: solid 4px #2F80ED;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.green{
+  width: 45px;
+  height: 64px;
+  border: solid 4px #27AE60;
+  border-radius: 10px;
+  margin-top: -35px;
+  margin-left: -18px;
+  z-index: 8;
+  background-color: black;
+}
+
+.yellow{
+  width: 45px;
+  height: 64px;
+  border: solid 4px #F2C94C ;
+  border-radius: 10px;
+  margin-top: -35px;
+  margin-left: -18px;
+  background-color: black;
+}
