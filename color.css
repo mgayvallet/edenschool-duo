@@ -13,26 +13,26 @@ body {
 
 .card {
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 160px);
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 260px);
 }
 
 .red {
-    background-color: red;
+    background-color: #F76A6A;
     border-radius: 20px 0 0 0;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #427BFF;
     border-radius:  0 20px 0 0;
 }
 
 .orange {
-    background-color: orange;
+    background-color: #FDC16B;
     border-radius:  0 0 0 20px;
 }
 
 .green {
-    background-color: greenyellow;
+    background-color: #3AD489;
     border-radius:  0 0 20px 0;
 }
