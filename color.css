@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 160px);
+}
+
+.red {
+    background-color: red;
+    border-radius: 20px 0 0 0;
+}
+
+.blue {
+    background-color: blue;
+    border-radius:  0 20px 0 0;
+}
+
+.orange {
+    background-color: orange;
+    border-radius:  0 0 0 20px;
+}
+
+.green {
+    background-color: greenyellow;
+    border-radius:  0 0 20px 0;
+}
